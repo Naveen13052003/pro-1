@@ -1,0 +1,116 @@
+<!--all text format are structure(markup),semantic(markup) is used to convey the extra information to the search engine-->
+<!DOCTYPE html><!--latest version5-->
+<html>
+    <head>
+        <title>1st html code</title> 
+    </head>
+    <body><!--Block elements = h,p,div,list,ulist automatic go to next line-->
+        <!--anchor(a), img,span these are all exists in same line -->
+        <h1>heading</h1>
+        <h2>heading</h2>
+        <h3>heading</h3>
+        <h4>heading</h4>
+        <h5>heading</h5>
+        <h6>heading</h6>
+        <p><i>This</i> is <b>m</b>y <b>p</b>aragraph </p>
+        <p>a<sup>2</sup></p>
+        <p>H<sub>2</sub>0</p>
+        <p>
+            hello,<br /> <!--break and jump to next-->
+                i am naveenkumar.
+                <hr /> <!--horizontal line-->
+        </p>
+        <p><!--below two consists of semantics the changing of style is not important the content understant clearly by search engine(server) and convey in speech for blind peoples-->
+            <strong>call the ambulance</strong> <br /><!--for blind people the search engine read this and it written in bold and also it is important point-->
+            <em>Do not </em>drink alcohol<!--emposis itlay -->
+        </p>
+        <p>
+            <!--quotes-->
+        
+            <q>You will face many defeats in life, but never let yourself be defeated.</q>
+            <blockquote><!--bigquotes--></blockquote>
+            <abbr>HTML</abbr><br />
+            <cite>THE FUTURE OF MIND</cite> by Michio <br/><!--books cite-->
+            <h1>Define nationalism?</h1><br />
+            <!-- dfn refes to the definition of a particular term -->
+            <dfn>Nationalism means a feeling of pride and belongingness towards one's nation. It is a feeling that unites people and drives them to fight for a common goal.</dfn>
+            <address>nk937498@gmail.com</address>
+        </p>
+        <p>
+            <del>23$3</del><ins>now-#987</ins><br />
+            <s>145.98.70</s><!--not valid but have in site-->
+        </p>
+        <p><!--lists-->
+            <h1>FEW DISTRICT OF TAMILNADU</h1><br />
+            <!--unordered list-->
+            <ul>
+                <li>namakkal</li>
+                <li>SALEM</li>
+                <li>erode</li>
+                <li>coimbatore</li>
+                <ul>
+                    <li>chennai</li>
+                </ul>
+
+            </ul>
+            <!--ordered list-->
+            <Ol><!--start attribute = start="5"-->
+                <li>namakkal</li>
+                <li>SALEM</li>
+                <li>erode</li>
+                <li>coimbatore</li>
+                <h4>beach places</h4>
+                <ol type="I"><!--or type is an attribute type="A" or type="i or I"-->
+                    <li>chennai</li>
+                    <li>ramnad</li>
+                </ol>
+            </Ol>
+            <h1>Types of Network </h1>
+            <!--to define a list-->
+            <dl><!--dl is the descriptive list in this list the several types has been defined(dd) through the titlt(dt)-->
+                <dt>LAN</dt><!--dt refers to denefition term--> <!--dd refers to definition content-->
+                <UL>
+                    <dd><li>A local area network (LAN)</li>
+                        <li>It is a college or closest uses of network</li>
+                    </dfn>
+                </UL>
+            
+                <dt>WAN</dt>
+                <dd>A wide area network (WAN) is a large computer network that connects groups of computers over large distances. WANs are often used by large businesses to connect their office networks</dd>
+                <dt>PAN</dt>
+                <dd>A personal area network (PAN) connects electronic devices within a user's immediate area. The size of a PAN ranges from a few centimeters to a few meters</dd>
+                <dt>MAN</dt>
+                <dd>A metropolitan area network (MAN) is a computer network that connects computers within a metropolitan area</dd>
+                
+            </dl>
+            <p>&copy</p><!--it is an excape character -->
+            <!-- this iframe is used to embed the other page into the current page in small box -->
+            <iframe src="formdemo.html" frameborder="0"></iframe>
+
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15665.12005579899!2d76.95710773326499!3d11.017605188684316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba85855910aed83%3A0x80875de5cd370a9d!2z4K6V4K6-4K6o4K-N4K6k4K6_4K6q4K-B4K6w4K6u4K-NLCDgrqTgrq7grr_grrTgr40g4K6o4K6-4K6f4K-BIDY0MTAxMg!5e0!3m2!1sta!2sin!4v1723988231298!5m2!1sta!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/tDLLIq95VZU?si=qptB-bSen4BmbX0B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe>
+
+            <!-- mps:safari 5+,chrome 6+, IE9
+                ogg: Firefox 3.6, chrome 6, IE9 the format of the audio has been change to all other browsers-->
+
+                <!--instead of this => <audio  src="media/Usuraiya Tholaichaen.mp3" controls  loop preload="auto">stepen</audio> using below method that can applicable in all browsers -->
+            <audio controls  loop preload="auto">
+                <source src="media/Usuraiya Tholaichaen.mp3" type="audio/mp3">audio not supported</audio><!--multiple formats given y this methos is more effecient-->
+
+            
+            <!--if it is in ogg format this method can accept in all browser-->
+               
+            <!--controls is used to visualize the audio ith perfect manner-->
+            <!-- autoplay will automatically play and loop used to play again the audio after the audio play finished -->
+             <!-- preload contain 3 attribute ####1. auto will automatically reload the details(duration,format etc..) of the audio before play ###### 2.none is used to reload the details(duration,formatetc..)of the audio after play the audio #### 3.metadata used to collect the details(duration,formatetc..) of the audio and load after  play the audio-->
+            <video  controls preload="auto" height="200" width="200" poster="submit.jpeg" muted>
+                <source src="media/jayam ravi.mp4" type="video/mp4">
+                video not supported</video><!--type is used to the browser checks the type and fastely check if the format is support or not if e not put type means it load all the sources and lastly find the format it takes lot of time-->
+
+
+        </p>
+    </body>
+</html>
